@@ -6,6 +6,7 @@ body{
   height: 100%;
   width: 100%;
   background-color: #222831;
+  position: absolute
   display: flex;
   justify-content: center;
 }
