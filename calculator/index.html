@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="https://iamsrijan.vercel.app/src/logo.png">
+</head>
+
+<body>
+  <div class="outline">
+    <span class="header">Calculator</span>
+    <div class="outline2">
+        <input class="display" id="display" readonly>
+      <div class="buttons">
+        <div class="rows">
+          <button id="sin-btn" class="btns">sin</button>
+          <button id="cos-btn" class="btns" onclick = "appendToDisplay('cos')">cos</button>
+          <button id="tan-btn" class="btns" onclick = "appendToDisplay('tan')">tan</button>
+          <button class="btns-spcl" id="Ac" onclick="cleardisplay()">AC</button>
+        </div>
+        <div class="rows">
+          <button class="btns" onclick = "appendToDisplay('.')">.</button>
+          <button class="btns" onclick = "appendToDisplay('**')">^</button>
+          <button class="btns" onclick = "appendToDisplay('(')">(</button>
+          <button class="btns" onclick = "appendToDisplay(')')">)</button>
+        </div>
+        <div class="rows">
+          <button class="btns" onclick = "appendToDisplay('+')">+</button>
+          <button class="btns" onclick = "appendToDisplay('-')">-</button>
+          <button class="btns" onclick = "appendToDisplay('*')">×</button>
+          <button class="btns" onclick = "appendToDisplay('/')">/</button>
+        </div>
+        <div class="rows">
+          <button class="btns" onclick = "appendToDisplay('7')">7</button>
+          <button class="btns" onclick = "appendToDisplay('8')">8</button>
+          <button class="btns" onclick = "appendToDisplay('9')">9</button>
+          <button class="btns" onclick = "appendToDisplay('0')">0</button>
+        </div>
+        <div class="rows">
+          <button class="btns" onclick = "appendToDisplay('4')">4</button>
+          <button class="btns" onclick = "appendToDisplay('5')">5</button>
+          <button class="btns" onclick = "appendToDisplay('6')">6</button>
+          <button class="btns-spcl" onclick="backspace()">DEL</button>
+        </div>
+        <div class="rows">
+          <button class="btns" onclick = "appendToDisplay('1')">1</button>
+          <button class="btns" onclick = "appendToDisplay('2')">2</button>
+          <button class="btns" onclick = "appendToDisplay('3')">3</button>
+          <button class="btns-spcl" id="Ans" onclick="calculate()">ANS</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+  <span class="attributes">coded with ❤️ by <a class="link" href="https://srijan.freewebhostmost.com/" target="_blank">Srijan</a></span>
+  </div>
+  <script src="script.js"></script>
+</body>
+  
+</html>
