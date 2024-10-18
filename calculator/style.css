@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.outline{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 260px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #b8ffb8;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.outline2{
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 230px;
+  margin: auto;
+  margin-bottom:10px;
+  background-color: #bae6ff;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.display{
+  position: relative;
+  display: inline-flex;
+  height: 60px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: right;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/*.display{
+  display: flex;
+  text-align: left;
+  font-size: 40px;
+  font-family: san-serif;
+}*/
+.buttons{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.rows{
+  height: 40px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  border: 0px solid black;
+}
+.btns{
+  height: 40px;
+  width: 41px;
+  border: 1px solid black;
+  margin: auto;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+.btns-spcl{
+  height: 40px;
+  width: 41px;
+  border: 1px solid black;
+  margin: auto;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  color: white;
+  background-color: #000000;
+}
+.header{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+.footer{
+  display: block;
+  text-align: center;
+}
+.attributes{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.link{
+  text-decoration: none;
+  color: #cfffcf;
+}
+.link:active{
+  color: #dcadff;
+}
