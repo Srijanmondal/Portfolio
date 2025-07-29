@@ -20,9 +20,7 @@ const cos = document.getElementById('cos-btn');
 const tan = document.getElementById('tan-btn');
 
 sin.onclick= function(){
-  appendToDisplay('sin(');
-  display.value = display.value.slice(0,-3);
-display.value= Math.sin(60);
+  alert("This function is under construction!")
 }
 
 cos.onclick= function(){
