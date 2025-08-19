@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+body{
+    background-color: #222831;  
+}
+h1{
+    color: #DDDAD0;
+    text-align: center;
+    font-family: "Federant", serif;
+}
+p{
+    color: #DDDAD0;
+    text-align: center;
+    font-family: "Federant", serif;
+}
+.container{
+    background-color: black;
+    margin: auto;
+    height: 520px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+.inp{
+    background-color: rgb(3, 3, 3);
+    display: block;
+}
+.input{
+    height: 30px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #f7f5f8;
+    margin: auto;
+    display: block;
+    font-family: "Federant", serif;
+}
+.btn{
+    height: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+}
+.result{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: beige;
+}
