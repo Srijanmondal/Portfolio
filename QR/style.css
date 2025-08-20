@@ -18,7 +18,7 @@ p{
     font-family: "Federant", serif;
 }
 .container{
-    background-color: black;
+    background-color: #323945;
     margin: auto;
     height: 500px;
     width: 320px;
@@ -26,7 +26,7 @@ p{
 
 }
 .inp{
-    background-color: rgb(3, 3, 3);
+    background-color: #323945;
     display: block;
 }
 .input{
@@ -63,3 +63,4 @@ p{
     text-align: center;
 
 }
+
