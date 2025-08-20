@@ -20,7 +20,7 @@ p{
 .container{
     background-color: #323945;
     margin: auto;
-    height: 500px;
+    height: 460px;
     width: 320px;
     border-radius: 20px;
 
@@ -63,4 +63,5 @@ p{
     text-align: center;
 
 }
+
 
