@@ -21,7 +21,7 @@ p{
     background-color: black;
     margin: auto;
     height: 500px;
-    width: 350px;
+    width: 320px;
     border-radius: 20px;
 
 }
@@ -61,4 +61,5 @@ p{
 }
 .copyright{
     text-align: center;
+
 }
